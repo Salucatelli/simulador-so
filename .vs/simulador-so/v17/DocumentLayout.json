@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\APOOII\\simulador so\\simulador-so\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\apooii\\simulador so\\simulador-so\\hardware\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:hardware\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\apooii\\simulador so\\simulador-so\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\apooii\\simulador so\\simulador-so\\thread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:thread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\apooii\\simulador so\\simulador-so\\readme.md||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:readme.md||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\apooii\\simulador so\\simulador-so\\so.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\APOOII\\simulador so\\simulador-so\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\APOOII\\simulador so\\simulador-so\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-09-01T23:48:32.523Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -44,7 +61,7 @@
               "RelativeDocumentMoniker": "Thread.cs",
               "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\APOOII\\simulador so\\simulador-so\\Thread.cs",
               "RelativeToolTip": "Thread.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T01:09:02.098Z",
               "EditorCaption": ""
@@ -53,18 +70,18 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Process.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\APOOII\\simulador so\\simulador-so\\Hardware\\Process.cs",
-              "RelativeDocumentMoniker": "Hardware\\Process.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\APOOII\\simulador so\\simulador-so\\Hardware\\Process.cs",
-              "RelativeToolTip": "Hardware\\Process.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\APOOII\\simulador so\\simulador-so\\Process.cs",
+              "RelativeDocumentMoniker": "Process.cs",
+              "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\APOOII\\simulador so\\simulador-so\\Process.cs",
+              "RelativeToolTip": "Process.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T00:47:17.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Memory.cs",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\APOOII\\simulador so\\simulador-so\\Hardware\\Memory.cs",
               "RelativeDocumentMoniker": "Hardware\\Memory.cs",
@@ -72,12 +89,11 @@
               "RelativeToolTip": "Hardware\\Memory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T00:34:58.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T00:34:58.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CPU.cs",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\APOOII\\simulador so\\simulador-so\\Hardware\\CPU.cs",
               "RelativeDocumentMoniker": "Hardware\\CPU.cs",
@@ -85,12 +101,11 @@
               "RelativeToolTip": "Hardware\\CPU.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T00:34:45.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T00:34:45.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SO.cs",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\APOOII\\simulador so\\simulador-so\\SO.cs",
               "RelativeDocumentMoniker": "SO.cs",
@@ -103,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\APOOII\\simulador so\\simulador-so\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

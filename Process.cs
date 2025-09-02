@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace simulador_so.Hardware
+namespace simulador_so
 {
     internal class Process
     {
