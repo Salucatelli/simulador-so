@@ -29,9 +29,9 @@ namespace simulador_so
             this.Estado = 1; // Ready
         }
 
-        public Process CreateSonProcess()
+        public Process CreateSonProcess(int priority)
         {
-            return new Process(0, this);
+            return new Process(priority, this);
         }
 
         // Creates a new thread

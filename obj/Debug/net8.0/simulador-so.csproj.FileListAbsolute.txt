@@ -13,3 +13,18 @@ D:\Prog\Faculdade\8º período\APOOII\simulador so\simulador-so\obj\Debug\net8.0
 D:\Prog\Faculdade\8º período\APOOII\simulador so\simulador-so\obj\Debug\net8.0\simulador-so.pdb
 D:\Prog\Faculdade\8º período\APOOII\simulador so\simulador-so\obj\Debug\net8.0\simulador-so.genruntimeconfig.cache
 D:\Prog\Faculdade\8º período\APOOII\simulador so\simulador-so\obj\Debug\net8.0\ref\simulador-so.dll
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\bin\Debug\net8.0\simulador-so.exe
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\bin\Debug\net8.0\simulador-so.deps.json
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\bin\Debug\net8.0\simulador-so.runtimeconfig.json
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\bin\Debug\net8.0\simulador-so.dll
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\bin\Debug\net8.0\simulador-so.pdb
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\obj\Debug\net8.0\simulador-so.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\obj\Debug\net8.0\simulador-so.AssemblyInfoInputs.cache
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\obj\Debug\net8.0\simulador-so.AssemblyInfo.cs
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\obj\Debug\net8.0\simulador-so.csproj.CoreCompileInputs.cache
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\obj\Debug\net8.0\simulador-so.sourcelink.json
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\obj\Debug\net8.0\simulador-so.dll
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\obj\Debug\net8.0\refint\simulador-so.dll
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\obj\Debug\net8.0\simulador-so.pdb
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\obj\Debug\net8.0\simulador-so.genruntimeconfig.cache
+C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\obj\Debug\net8.0\ref\simulador-so.dll
