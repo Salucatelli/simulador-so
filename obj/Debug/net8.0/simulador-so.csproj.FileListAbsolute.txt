@@ -28,3 +28,18 @@ C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\obj\Debug\net8.0\refint\si
 C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\obj\Debug\net8.0\simulador-so.pdb
 C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\obj\Debug\net8.0\simulador-so.genruntimeconfig.cache
 C:\Users\samuel.lucatelli\Desktop\testes\simulador-so\obj\Debug\net8.0\ref\simulador-so.dll
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\bin\Debug\net8.0\simulador-so.exe
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\bin\Debug\net8.0\simulador-so.deps.json
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\bin\Debug\net8.0\simulador-so.runtimeconfig.json
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\bin\Debug\net8.0\simulador-so.dll
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\bin\Debug\net8.0\simulador-so.pdb
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\obj\Debug\net8.0\simulador-so.GeneratedMSBuildEditorConfig.editorconfig
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\obj\Debug\net8.0\simulador-so.AssemblyInfoInputs.cache
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\obj\Debug\net8.0\simulador-so.AssemblyInfo.cs
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\obj\Debug\net8.0\simulador-so.csproj.CoreCompileInputs.cache
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\obj\Debug\net8.0\simulador-so.sourcelink.json
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\obj\Debug\net8.0\simulador-so.dll
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\obj\Debug\net8.0\refint\simulador-so.dll
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\obj\Debug\net8.0\simulador-so.pdb
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\obj\Debug\net8.0\simulador-so.genruntimeconfig.cache
+D:\Meus Arquivos\Prog\Faculdade\Sistemas Operacionais\simulador-so\obj\Debug\net8.0\ref\simulador-so.dll

@@ -2,75 +2,135 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace simulador_so;
 
-internal class SO
+public class SO
 {
     public List<CPU> CPUs = new();
     public List<Process> allProcesses = new();
-    public List<Process> waitingProcesses = new();
-    public List<Process> executingProcesses = new();
-    public List<Process> endProcesses = new();
 
-    public void InicializarCPUs(int quantidade)
+    public int Ticks { get; set; } = 0;
+
+    public Scheduler scheduler { get; set; }
+    public Process MainProcess { get; set; }
+
+    // States of a process and thread
+    public enum ExecutionState { New, Ready, Running, Waiting, Terminated };
+
+    public SO (int numCPUs)
     {
-        for (int i = 0; i < quantidade; i++)
+        InitializeCPUs(numCPUs);
+        MainProcess = new(1, null);
+        scheduler = new Scheduler();
+    }
+
+    public void InitializeCPUs(int qnt)
+    {
+        for (int i = 0; i < qnt; i++)
         {
             CPUs.Add(new CPU());
         }
     }
 
-    public void IniciarProcessos()
-    {
-        // Main Process
-        Process p1 = new(1, null);
+    /*
+    ===============================================================================================
+     # TO-DO
+      - Melhorar o menu do terminal para aparecer tudo direito                                  ( )
+      - Adicionar o alocamento de memória                                                       ( )
+      - Editar o escalonador e criar uma interface, para adicionar os 3 algoritmos              ( )
 
-        waitingProcesses.Add(p1);
-    }
+    ===============================================================================================
+     */
 
-    // Eu posso ao invez de simplesmente mandar tudo executar dentro do SO, declarar meus núcleos, e esses núcleos farão o trabalho de chamar o escalonador para decidir o próximo processo, e executa-lo.
-
-    // This class is going to call all the methods to run the system, starting with the creation of the processes, calling the scheduler to decide the priority and execute the processes
-    public async Task ExecutarSistema()
+    public void ExecutarSistema()
     {
         // The main process
         Process P = new(1, null);
 
-        // A ideia inicial é simplesmente criar todos os processos no início do programa, e colocar todos eles em uma lista. Toda vez que um processo for finalizado, eu passo essa lista de processos que estão aguardando para o escalonador, ele decide qual o próximo processo a ser executado, executa ele, e assim por diante.
+        // Creating manualy only for testing
+        Process p1 = P.CreateSonProcess(2);
+        Process p2 = P.CreateSonProcess(2);
 
-        // Perguntar depois pro professor se eu preciso ter um sistema para interromper processos no meio da execução para colocar outros pocessos no lugar (Preempção).
+        p1.CreateThread();
+        p1.CreateThread();
 
-        // Creates a new porocess and adds it to the list
-        allProcesses.Add(P.CreateSonProcess(2));
-        allProcesses.Add(P.CreateSonProcess(1));
+        p2.CreateThread();
+        p2.CreateThread();
+        p2.CreateThread();
 
-        waitingProcesses = allProcesses.ToList();
+        allProcesses.Add(p1);
+        allProcesses.Add(p2);
 
-        // Depois de adicionar os processos na lista, eu começo um loop para executa-los
-
-
-        // Esse for basicamente passa pela lista com todos os processos. A cada execução ele chama o escalonador para decidir qual será o proximo, atualiza as listas de processos em espera e os em execução, e executa o processo selecionado. Repete isso até acabar os processos da lista.
-        for(int i = 0; i < allProcesses.Count; i++)
+        foreach(var p in allProcesses)
         {
-            // Posso depois fazer uma "tela" para vizualizar o estado atual de cada uma das listas, e talvez dos processos que estão sendo executados naquele momento.
-
-            // chama o escalonador para decidir qual processo será executado
-            Process pToBeExecuted = await Scheduler.GetNextProcess(waitingProcesses);
-
-            waitingProcesses.Remove(pToBeExecuted);
-            executingProcesses.Add(pToBeExecuted);
-
-            Console.WriteLine($"Processo de Id {pToBeExecuted.Id} com prioridade {pToBeExecuted.Prioridade} selecionado para ser executado.\n");
-
-            await Task.Delay(200); // 0.2s
-
-            await pToBeExecuted.Execute();
+            // Adds all the processes to the scheduler queue
+            p.State = ExecutionState.Ready;
+            scheduler.AddProcessToQueue(p);
         }
 
-        Console.WriteLine("Execução finalizada. Pressione qualquer tecla para sair...");
-        Console.ReadKey();
+        while (true)
+        {
+            if(allProcesses.All(p => p.State == ExecutionState.Terminated))
+            {
+                Console.WriteLine("\nExecução finalizada");
+                break;
+            }
+
+            //Assign threads to all the cpus
+            foreach(var cpu in CPUs)
+            {
+                if (cpu.IsIdle())
+                {
+                    // Next process to be executed
+                    var nextProcess = scheduler.GetNextProcess();
+
+                    // Give the process to the CPU, and it execute the next thread of the process
+                    cpu.AddThread(nextProcess);
+                    // Execute the current thread
+                    Console.WriteLine($"CPU [{cpu.Id}] Executing {cpu.ExecutingThread}");
+                }
+            }
+
+            // Execute Ticks for all the CPUs
+            foreach(var cpu in CPUs)
+            {
+                var finished = cpu.ExecuteTick();
+                if(finished is not null)
+                {
+                    Console.WriteLine($"CPU [{cpu.Id}] finished Thread [{finished}]");
+                }
+            }
+
+            // Terminate the processes that has already finished
+            foreach(var p in allProcesses)
+            {
+                if(p.Threads.All(t => t.State == ExecutionState.Terminated))
+                {
+                    p.State = ExecutionState.Terminated;
+                }
+            }
+
+            ShowInfo();
+
+            Console.ReadKey();
+
+            Ticks++;
+        }
+    }
+
+    public void ShowInfo()
+    {
+        Console.WriteLine($"Tick Atual {Ticks}\n\n");
+
+        Console.WriteLine($"Processos:\n");
+
+        foreach(var p in allProcesses)
+        {
+            Console.WriteLine($"Id: [{p.Id}] | State: [{p.State}]");
+        }
     }
 }

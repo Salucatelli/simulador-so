@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vz1WaMqKcKY=",
+  "dgSpecHash": "sVv5tzxKmjw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\simulador-so.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Meus Arquivos\\Prog\\Faculdade\\Sistemas Operacionais\\simulador-so\\simulador-so.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Samuel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.2\\microsoft.windowsdesktop.app.ref.8.0.2.nupkg.sha512",
+    "C:\\Users\\Samuel\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.2\\microsoft.netcore.app.ref.8.0.2.nupkg.sha512",
+    "C:\\Users\\Samuel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.2\\microsoft.aspnetcore.app.ref.8.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

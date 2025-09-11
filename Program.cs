@@ -1,6 +1,6 @@
 ﻿using simulador_so;
 
-SO system = new();
+SO system = new(1);
 
-await system.ExecutarSistema();
+system.ExecutarSistema();
 
