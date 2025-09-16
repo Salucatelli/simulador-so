@@ -1,4 +1,6 @@
 ﻿using simulador_so.Hardware;
+using simulador_so.Models;
+using simulador_so.Schedulers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +17,7 @@ public class SO
 
     public int Ticks { get; set; } = 0;
 
-    public Scheduler scheduler { get; set; }
+    public FCFSScheduler scheduler { get; set; }
     public Process MainProcess { get; set; }
 
     // States of a process and thread
@@ -25,7 +27,7 @@ public class SO
     {
         InitializeCPUs(numCPUs);
         MainProcess = new(1, null);
-        scheduler = new Scheduler();
+        scheduler = new FCFSScheduler();
     }
 
     public void InitializeCPUs(int qnt)
@@ -42,6 +44,8 @@ public class SO
       - Melhorar o menu do terminal para aparecer tudo direito                                  ( )
       - Adicionar o alocamento de memória                                                       ( )
       - Editar o escalonador e criar uma interface, para adicionar os 3 algoritmos              ( )
+      - Preciso pensar em alguma maneira de setar processos como waiting caso eles sejam 
+        interrompidos                                                                           ( )
 
     ===============================================================================================
      */
@@ -69,9 +73,10 @@ public class SO
         {
             // Adds all the processes to the scheduler queue
             p.State = ExecutionState.Ready;
-            scheduler.AddProcessToQueue(p);
+            scheduler.AddProcessToList(p);
         }
 
+        // <ain Execution loop
         while (true)
         {
             if(allProcesses.All(p => p.State == ExecutionState.Terminated))

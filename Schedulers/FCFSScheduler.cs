@@ -4,20 +4,21 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
-using simulador_so;
+using simulador_so.Interfaces;
+using simulador_so.Models;
 using static simulador_so.SO;
 
-namespace simulador_so;
+namespace simulador_so.Schedulers;
 
-public class Scheduler
+public class FCFSScheduler : IScheduler
 {
     // Por enquando estou implementando apenas o FCFS, First come first served
 
     // Fila com os processos
-    public Queue<Process> Queue { get; set; } = new();
+    private Queue<Process> Queue { get; set; } = new();
 
     // Adds a process to the queue
-    public void AddProcessToQueue(Process p)
+    public void AddProcessToList(Process p)
     {
         Queue.Enqueue(p);
     }

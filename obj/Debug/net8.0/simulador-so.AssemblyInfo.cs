@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("simulador-so")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fed70e54779f98180c86fd700d8f85aeac03737")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+024bc8c8e757edb65855687cb35f5a1f800bd48d")]
 [assembly: System.Reflection.AssemblyProductAttribute("simulador-so")]
 [assembly: System.Reflection.AssemblyTitleAttribute("simulador-so")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

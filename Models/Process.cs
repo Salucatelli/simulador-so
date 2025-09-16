@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static simulador_so.SO;
 
-namespace simulador_so
+namespace simulador_so.Models
 {
     public class Process
     {
