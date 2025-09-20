@@ -1,6 +1,19 @@
 ﻿using simulador_so;
+using System.Windows.Forms;
 
-SO system = new(1);
+public class Program
+{
+    [STAThread]
+    static void Main()
+    {
+        Application.EnableVisualStyles();
+        Application.SetCompatibleTextRenderingDefault(false);
 
-system.ExecutarSistema();
+        SO system = new(1);
+        system.BootSystem();
+
+        Application.Run(new MainForm(system)); // abre a janela
+    }
+}
+
 

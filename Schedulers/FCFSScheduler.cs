@@ -17,6 +17,8 @@ public class FCFSScheduler : IScheduler
     // Fila com os processos
     private Queue<Process> Queue { get; set; } = new();
 
+    private Process LastProcess = null!;
+
     // Adds a process to the queue
     public void AddProcessToList(Process p)
     {
@@ -30,6 +32,18 @@ public class FCFSScheduler : IScheduler
 
         if(process is not null)
         {
+            if(LastProcess != process && LastProcess is not null)
+            {
+                // Isn't finished yet
+                if(LastProcess.GetRemainingTicksNeeded() > 0)
+                {
+                    LastProcess.State = ExecutionState.Waiting;
+                }
+                LastProcess = process;
+            }
+
+            process.State = ExecutionState.Running;
+
             if (process.Threads.Count(t => t.State == ExecutionState.Terminated) == process.Threads.Count - 1)
             {
                 return Queue.Dequeue();

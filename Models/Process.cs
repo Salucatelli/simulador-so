@@ -47,6 +47,12 @@ namespace simulador_so.Models
             return null!; 
         }
 
+        // Returns the ticksNeeded to end the process
+        public int GetRemainingTicksNeeded()
+        {
+            return Threads.Sum(t => t.TicksNeeded);
+        }
+
         // Execute all the threads in the process
         //public async Task Execute()
         //{

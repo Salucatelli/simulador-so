@@ -1,17 +1,19 @@
-﻿using System;
+﻿using simulador_so.Interfaces;
+using simulador_so.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
-using simulador_so.Interfaces;
-using simulador_so.Models;
 using static simulador_so.SO;
 
 namespace simulador_so.Schedulers;
 
-internal class SRTScheduler : IScheduler
+public class SRTScheduler : IScheduler
 {
+    private Process LastProcess = null!;
+
     // List with all the processes
     private List<Process> processes { get; set; } = new();
 
@@ -25,16 +27,44 @@ internal class SRTScheduler : IScheduler
     // Returns the next process based on a algorithm
     public Process GetNextProcess()
     {
-        // to be implemented yet
+        //This dictionary contains all the process in the line and it's remaining time
+        Dictionary<Process, int> ProcessTicks = new Dictionary<Process, int>();
+
+        // Fill the ProcessTicks dictionary 
         foreach (Process p in processes)
         {
             int total = 0;
+
             var threads = p.Threads;
             foreach(var t in threads)
             {
-
+                total += t.TicksNeeded;
             }
+
+            ProcessTicks.Add(p, total);
         }
-        return null!;
+
+        Process next = ProcessTicks.Where(p => p.Value == ProcessTicks.Min(t => t.Value)).FirstOrDefault().Key;
+
+        if (LastProcess != next && LastProcess is not null)
+        {
+            // Isn't finished yet
+            if (LastProcess.GetRemainingTicksNeeded() > 0)
+            {
+                LastProcess.State = ExecutionState.Waiting;
+            }
+            LastProcess = next;
+        }
+
+        // If the process is about to end, it already removes it from the list
+        if (next.Threads.Count(t => t.State == ExecutionState.Terminated) == next.Threads.Count - 1)
+        {
+            processes.Remove(next);
+            return next;
+        }
+        else
+        {
+            return next;
+        }
     }
 }

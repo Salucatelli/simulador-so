@@ -1,0 +1,15 @@
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\bin\Debug\net8.0-windows\simulador-so.exe
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\bin\Debug\net8.0-windows\simulador-so.deps.json
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\bin\Debug\net8.0-windows\simulador-so.runtimeconfig.json
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\bin\Debug\net8.0-windows\simulador-so.dll
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\bin\Debug\net8.0-windows\simulador-so.pdb
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\obj\Debug\net8.0-windows\simulador-so.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\obj\Debug\net8.0-windows\simulador-so.AssemblyInfoInputs.cache
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\obj\Debug\net8.0-windows\simulador-so.AssemblyInfo.cs
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\obj\Debug\net8.0-windows\simulador-so.csproj.CoreCompileInputs.cache
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\obj\Debug\net8.0-windows\simulador-so.sourcelink.json
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\obj\Debug\net8.0-windows\simulador-so.dll
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\obj\Debug\net8.0-windows\refint\simulador-so.dll
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\obj\Debug\net8.0-windows\simulador-so.pdb
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\obj\Debug\net8.0-windows\simulador-so.genruntimeconfig.cache
+D:\Prog\Faculdade\8º período\Sistemas Operacionais\simulador-so\obj\Debug\net8.0-windows\ref\simulador-so.dll

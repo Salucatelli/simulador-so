@@ -1,41 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\",
+  "WorkspaceRootPath": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|c:\\users\\samuel.lucatelli\\desktop\\testes\\simulador-so\\models\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:models\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|c:\\users\\samuel.lucatelli\\desktop\\testes\\simulador-so\\schedulers\\srtscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:schedulers\\srtscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|c:\\users\\samuel.lucatelli\\desktop\\testes\\simulador-so\\schedulers\\fcfsscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:schedulers\\fcfsscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|c:\\users\\samuel.lucatelli\\desktop\\testes\\simulador-so\\interfaces\\ischeduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:interfaces\\ischeduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|c:\\users\\samuel.lucatelli\\desktop\\testes\\simulador-so\\so.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\sistemas operacionais\\simulador-so\\so.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:so.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|c:\\users\\samuel.lucatelli\\desktop\\testes\\simulador-so\\hardware\\cpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:hardware\\cpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\sistemas operacionais\\simulador-so\\schedulers\\fcfsscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:schedulers\\fcfsscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|c:\\users\\samuel.lucatelli\\desktop\\testes\\simulador-so\\models\\simthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:models\\simthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\sistemas operacionais\\simulador-so\\schedulers\\rrscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:schedulers\\rrscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|c:\\users\\samuel.lucatelli\\desktop\\testes\\simulador-so\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\sistemas operacionais\\simulador-so\\schedulers\\srtscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:schedulers\\srtscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\sistemas operacionais\\simulador-so\\interfaces\\ischeduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:interfaces\\ischeduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\sistemas operacionais\\simulador-so\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|c:\\users\\samuel.lucatelli\\desktop\\testes\\simulador-so\\hardware\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\sistemas operacionais\\simulador-so\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\sistemas operacionais\\simulador-so\\models\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:models\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\sistemas operacionais\\simulador-so\\hardware\\cpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:hardware\\cpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\sistemas operacionais\\simulador-so\\models\\simthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:models\\simthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|d:\\prog\\faculdade\\8\u00BA per\u00EDodo\\sistemas operacionais\\simulador-so\\hardware\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77D6B6CC-D4B0-4EB4-9A5E-3F1997A6349C}|simulador-so.csproj|solutionrelative:hardware\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,15 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
@@ -66,78 +70,130 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SRTScheduler.cs",
-              "DocumentMoniker": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Schedulers\\SRTScheduler.cs",
-              "RelativeDocumentMoniker": "Schedulers\\SRTScheduler.cs",
-              "ToolTip": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Schedulers\\SRTScheduler.cs",
-              "RelativeToolTip": "Schedulers\\SRTScheduler.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T12:26:24.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IScheduler.cs",
-              "DocumentMoniker": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Interfaces\\IScheduler.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IScheduler.cs",
-              "ToolTip": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Interfaces\\IScheduler.cs",
-              "RelativeToolTip": "Interfaces\\IScheduler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T12:15:09.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Process.cs",
-              "DocumentMoniker": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Models\\Process.cs",
-              "RelativeDocumentMoniker": "Models\\Process.cs",
-              "ToolTip": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Models\\Process.cs",
-              "RelativeToolTip": "Models\\Process.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAkwCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T11:48:45.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "SO.cs",
-              "DocumentMoniker": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\SO.cs",
+              "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\SO.cs",
               "RelativeDocumentMoniker": "SO.cs",
-              "ToolTip": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\SO.cs",
+              "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\SO.cs",
               "RelativeToolTip": "SO.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAuwFoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAmwFwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T11:48:45.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAqwCwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T11:29:41.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T11:48:45.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "RRScheduler.cs",
+              "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Schedulers\\RRScheduler.cs",
+              "RelativeDocumentMoniker": "Schedulers\\RRScheduler.cs",
+              "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Schedulers\\RRScheduler.cs",
+              "RelativeToolTip": "Schedulers\\RRScheduler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T10:55:17.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SRTScheduler.cs",
+              "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Schedulers\\SRTScheduler.cs",
+              "RelativeDocumentMoniker": "Schedulers\\SRTScheduler.cs",
+              "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Schedulers\\SRTScheduler.cs",
+              "RelativeToolTip": "Schedulers\\SRTScheduler.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T12:26:24.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IScheduler.cs",
+              "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Interfaces\\IScheduler.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IScheduler.cs",
+              "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Interfaces\\IScheduler.cs",
+              "RelativeToolTip": "Interfaces\\IScheduler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T12:15:09.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Process.cs",
+              "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Models\\Process.cs",
+              "RelativeDocumentMoniker": "Models\\Process.cs",
+              "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Models\\Process.cs",
+              "RelativeToolTip": "Models\\Process.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwDEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T11:48:45.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FCFSScheduler.cs",
-              "DocumentMoniker": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Schedulers\\FCFSScheduler.cs",
+              "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Schedulers\\FCFSScheduler.cs",
               "RelativeDocumentMoniker": "Schedulers\\FCFSScheduler.cs",
-              "ToolTip": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Schedulers\\FCFSScheduler.cs",
+              "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Schedulers\\FCFSScheduler.cs",
               "RelativeToolTip": "Schedulers\\FCFSScheduler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T11:48:45.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "SimThread.cs",
-              "DocumentMoniker": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Models\\SimThread.cs",
+              "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Models\\SimThread.cs",
               "RelativeDocumentMoniker": "Models\\SimThread.cs",
-              "ToolTip": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Models\\SimThread.cs",
+              "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Models\\SimThread.cs",
               "RelativeToolTip": "Models\\SimThread.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAIBJwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T11:48:45.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Memory.cs",
+              "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Hardware\\Memory.cs",
+              "RelativeDocumentMoniker": "Hardware\\Memory.cs",
+              "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Hardware\\Memory.cs",
+              "RelativeToolTip": "Hardware\\Memory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T11:48:45.082Z",
               "EditorCaption": ""
@@ -145,39 +201,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Memory.cs",
-              "DocumentMoniker": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Hardware\\Memory.cs",
-              "RelativeDocumentMoniker": "Hardware\\Memory.cs",
-              "ToolTip": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Hardware\\Memory.cs",
-              "RelativeToolTip": "Hardware\\Memory.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T11:48:45.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "CPU.cs",
-              "DocumentMoniker": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Hardware\\CPU.cs",
+              "DocumentMoniker": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Hardware\\CPU.cs",
               "RelativeDocumentMoniker": "Hardware\\CPU.cs",
-              "ToolTip": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Hardware\\CPU.cs",
+              "ToolTip": "D:\\Prog\\Faculdade\\8\u00BA per\u00EDodo\\Sistemas Operacionais\\simulador-so\\Hardware\\CPU.cs",
               "RelativeToolTip": "Hardware\\CPU.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T11:48:45.082Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\samuel.lucatelli\\Desktop\\testes\\simulador-so\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T11:48:45.099Z"
             }
           ]
         },
